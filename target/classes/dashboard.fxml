@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="972.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.godlyMark.launchpadhotkeys.Controller">
+   <children>
+      <GridPane layoutX="42.0" layoutY="134.0" prefHeight="485.0" prefWidth="487.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="440.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="379.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="318.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="257.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="196.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="135.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="74.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="12.0" layoutY="14.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <BottomNavigationButton onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <BottomNavigationButton layoutX="10.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="70.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="131.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="192.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="253.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="314.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="375.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="436.0" layoutY="198.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <BottomNavigationButton layoutX="10.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="70.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="131.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="192.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="253.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="314.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="375.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="436.0" layoutY="259.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <BottomNavigationButton layoutX="10.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="70.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="131.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="192.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="253.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="314.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="375.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="436.0" layoutY="320.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <BottomNavigationButton layoutX="10.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="70.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="131.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="192.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="253.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="314.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="375.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" styleClass="roundedButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <BottomNavigationButton layoutX="436.0" layoutY="380.0" onAction="#onAction" prefHeight="51.0" prefWidth="51.0" stylesheets="@styles/style.css" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="42.0" layoutY="64.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="60.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <BottomNavigationButton prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" />
+            <BottomNavigationButton layoutX="10.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="1" />
+            <BottomNavigationButton layoutX="70.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="2" />
+            <BottomNavigationButton layoutX="70.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="3" />
+            <BottomNavigationButton layoutX="70.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="4" />
+            <BottomNavigationButton layoutX="190.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="5" />
+            <BottomNavigationButton layoutX="310.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="6" />
+            <BottomNavigationButton layoutX="370.0" layoutY="13.0" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" GridPane.columnIndex="7" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="537.0" layoutY="137.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="60.0" prefWidth="60.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <BottomNavigationButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="1" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="10.0" layoutY="13.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="10.0" layoutY="13.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="10.0" layoutY="13.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="5" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="10.0" layoutY="253.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="10.0" layoutY="313.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="7" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+            <BottomNavigationButton layoutX="10.0" layoutY="373.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="54.0" style="-fx-scale-x: 0.8; -fx-scale-y: 0.8;" styleClass="roundButton" stylesheets="@styles/style.css" text="8" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </BottomNavigationButton>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

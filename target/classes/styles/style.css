@@ -1,0 +1,8 @@
+.roundButton {
+    -fx-background-radius:10em;
+    -fx-font-size: 15pt;
+}
+
+.roundedButton {
+    -fx-background-radius:5%;
+}

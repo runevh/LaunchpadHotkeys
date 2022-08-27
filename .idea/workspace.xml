@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7f4d01-4d3f-4194-a2f5-6b9f3b034934" name="Changes" comment="" />
+    <list default="true" id="1c7f4d01-4d3f-4194-a2f5-6b9f3b034934" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/handlers/ScreenHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/handlers/EffectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/handlers/EffectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/handlers/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/handlers/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/objects/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/godlyMark/launchpadhotkeys/objects/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/EffectHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/EffectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/EffectHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/KeyHandler$Effect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/KeyHandler$Effect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/KeyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/handlers/KeyHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/objects/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/godlyMark/launchpadhotkeys/objects/Key.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,17 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/javafx-sdk-18.0.2/lib/javafx.web.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Program Files/Java/javafx-sdk-18.0.2/lib/javafx.web.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "discord-application"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\runev\IdeaProjects\Launchpad Hotkeys\src\main\resources\styles" />
@@ -51,8 +69,8 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.godlyMark.launchpadhotkeys.Main" />
-      <module name="Launchpad Hotkeys" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-18.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <module name="LaunchpadHotkeys" />
+      <option name="VM_PARAMETERS" value="--module-path /Library/Java/JavaVirtualMachines/javafx-sdk-18.0.2/lib --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="net.godlyMark.launchpadhotkeys.handlers.*" />

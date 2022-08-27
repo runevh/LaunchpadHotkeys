@@ -5,26 +5,22 @@ import io.cassaundra.rocket.Pad;
 import net.godlyMark.launchpadhotkeys.Main;
 import net.godlyMark.launchpadhotkeys.Util;
 import net.godlyMark.launchpadhotkeys.objects.Key;
+import org.checkerframework.checker.units.qual.A;
 
 import java.math.BigDecimal;
 import java.util.*;
 
 public class EffectHandler implements Runnable{
 
-    private static final int MINIMUM = 20;
+    private static final int MINIMUM = 50;
+    private List<Key> tempKeys;
 
     @Override
     public void run() {
-
+        tempKeys = new ArrayList<>(KeyHandler.getKeys());
         while(true){
-            List<Key> keys = new ArrayList<>(KeyHandler.getActiveKeys());
             try {
-                for(Key key : keys){
-                    switch (key.getEffect()){
-                        case BREATHING -> breath(key);
-                        case NONE -> none(key);
-                    }
-                }
+                if(KeyHandler.getSelectedKey() != null) breath(KeyHandler.getSelectedKey());
                 Thread.sleep(20);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
@@ -37,8 +33,26 @@ public class EffectHandler implements Runnable{
 
     }
 
-    private static void none(Key key){
+    private void stat(Key key){
+        if(!hasToUpdate(key)) return;
 
+        update(key);
+    }
+
+    private void off(Key key){
+        if(!hasToUpdate(key)) return;
+
+        update(key);
+    }
+
+    private void update(Key key){
+        int index = KeyHandler.getKeys().indexOf(key);
+        tempKeys.set(index, key);
+    }
+
+    private boolean hasToUpdate(Key key){
+        int index = KeyHandler.getKeys().indexOf(key);
+        return !tempKeys.get(index).equals(KeyHandler.getKeys());
     }
 
     private static void breath(Key key){
@@ -53,8 +67,10 @@ public class EffectHandler implements Runnable{
         double y = (100 - MINIMUM) / 2.0 * Math.cos(x/(0.5/Math.PI)) + (100 - MINIMUM) / 2.0 + MINIMUM;
 
         Pad pad = new Pad(key.getCoordinates().getX(), key.getCoordinates().getY());
+        Color color = Color.BLUE.copy((int) (r * y), (int) (g * y), (int) (b * y));
 
-        Main.getRocket().setPad(pad, Color.BLUE.copy((int) (r * y), (int) (g * y), (int) (b *y)));
+        Main.getRocket().setPad(pad, color);
+        ScreenHandler.updateSelectedNavButton(key.getNavButton(), color);
     }
 
 }

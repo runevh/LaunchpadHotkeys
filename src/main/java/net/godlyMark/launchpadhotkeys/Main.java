@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import lombok.Getter;
 import net.godlyMark.launchpadhotkeys.handlers.EffectHandler;
+import net.godlyMark.launchpadhotkeys.handlers.KeyHandler;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.event.ActionEvent;
@@ -19,6 +20,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+
+        KeyHandler.init();
         Thread thread = new Thread(new EffectHandler());
         thread.start();
 
